@@ -42,7 +42,7 @@ module.exports = function(grunt) {
 
   var chalk = require('chalk');
 
-  grunt.registerMultiTask('uglify', 'Minify files with UglifyJS.', function() {
+  grunt.registerMultiTask('nl_jsuglify', 'Minify files with UglifyJS.', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
       banner: '',
